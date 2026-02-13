@@ -1,0 +1,9 @@
+{
+  "name": "cowork-support-tickets",
+  "version": "0.1.0",
+  "description": "Create support tickets in ClickUp from your current Cowork session context",
+  "author": {
+    "name": "Bolt Farm Treehouse"
+  },
+  "keywords": ["support", "tickets", "clickup", "help"]
+}

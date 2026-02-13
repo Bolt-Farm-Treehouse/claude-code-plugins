@@ -1,0 +1,20 @@
+{
+  "name": "boltfarm-cowork-plugins",
+  "owner": {
+    "name": "Bolt Farm Treehouse",
+    "email": "keagan@boltfarmtreehouse.com"
+  },
+  "metadata": {
+    "description": "Internal Cowork plugins for the Bolt Farm Treehouse team",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cowork-support-tickets",
+      "source": "./cowork-support-tickets",
+      "description": "Create support tickets in ClickUp from your current Cowork session context",
+      "version": "0.1.0",
+      "keywords": ["support", "tickets", "clickup", "help"]
+    }
+  ]
+}
