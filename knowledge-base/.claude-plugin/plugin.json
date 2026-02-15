@@ -1,0 +1,9 @@
+{
+  "name": "knowledge-base",
+  "version": "0.1.0",
+  "description": "Manage the Company Brain Zettelkasten — process documents into atomic notes, search the vault, and run health checks",
+  "author": {
+    "name": "Bolt Farm Treehouse"
+  },
+  "keywords": ["knowledge-base", "zettelkasten", "vault", "notes", "quartz"]
+}
