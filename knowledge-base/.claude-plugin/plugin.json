@@ -1,9 +1,20 @@
 {
   "name": "knowledge-base",
-  "version": "0.1.0",
-  "description": "Manage the Company Brain Zettelkasten — process documents into atomic notes, search the vault, and run health checks",
+  "version": "0.2.0",
+  "description": "Manage the Company Brain Zettelkasten — process documents into atomic notes, ingest from Google Drive, ClickUp, meetings, and Cowork sessions, with intelligent discernment gating and automated daily sweeps",
   "author": {
     "name": "Bolt Farm Treehouse"
   },
-  "keywords": ["knowledge-base", "zettelkasten", "vault", "notes", "quartz"]
+  "keywords": [
+    "knowledge-base",
+    "zettelkasten",
+    "vault",
+    "notes",
+    "quartz",
+    "ingestion",
+    "google-drive",
+    "clickup",
+    "meetings",
+    "discernment"
+  ]
 }

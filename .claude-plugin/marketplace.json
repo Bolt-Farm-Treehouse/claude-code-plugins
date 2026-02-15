@@ -14,14 +14,30 @@
       "source": "./cowork-support-tickets",
       "description": "Create support tickets in ClickUp from your current Cowork session context",
       "version": "0.1.0",
-      "keywords": ["support", "tickets", "clickup", "help"]
+      "keywords": [
+        "support",
+        "tickets",
+        "clickup",
+        "help"
+      ]
     },
     {
       "name": "knowledge-base",
       "source": "./knowledge-base",
       "description": "Manage the Company Brain Zettelkasten — process documents into atomic notes, search the vault, and run health checks",
       "version": "0.1.0",
-      "keywords": ["knowledge-base", "zettelkasten", "vault", "notes", "quartz"]
+      "keywords": [
+        "knowledge-base",
+        "zettelkasten",
+        "vault",
+        "notes",
+        "quartz",
+        "ingest",
+        "discernment",
+        "clickup",
+        "drive",
+        "cowork"
+      ]
     }
   ]
 }
