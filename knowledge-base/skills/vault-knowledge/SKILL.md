@@ -17,6 +17,8 @@ The Company Brain is a git-based Zettelkasten knowledge system hosted on GitHub.
 
 The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub. All content is in the `content/` directory. System configuration is in `.zettelkasten/`.
 
+**Connection:** The vault is always accessed via the GitHub API through the Composio GitHub MCP connector — never through the local filesystem. See `references/vault-connection.md` for the complete access layer specification, including read/write patterns, pre-flight checks, and error handling.
+
 ## Vault Structure
 
 ```

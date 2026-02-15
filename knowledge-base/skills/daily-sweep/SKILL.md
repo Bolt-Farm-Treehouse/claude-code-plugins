@@ -17,6 +17,14 @@ Run all ingestion sources in sequence to bring the Company Brain vault up to dat
 
 The daily sweep runs every ingestion source, deduplicates findings, routes content through discernment, and produces a consolidated report. Designed to keep the vault within one day of current.
 
+## Prerequisites
+
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
+- Google Drive and ClickUp MCP connectors needed for their respective ingestion phases
+
 ## Execution Order
 
 Run sources in this order (each depends on the vault being up-to-date from previous steps):

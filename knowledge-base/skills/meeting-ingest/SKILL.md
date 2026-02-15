@@ -16,7 +16,10 @@ Extract decisions, action items, insights, and tribal knowledge from Google Meet
 ## Prerequisites
 
 - Google Drive MCP connector (Google Meet transcripts auto-save to Drive)
-- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
 - Existing source notes in `content/notes/source/`
 
 ## Where Transcripts Live

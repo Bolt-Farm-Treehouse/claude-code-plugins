@@ -15,8 +15,11 @@ Scan the Cowork outputs folder for documents, analyses, reports, and other artif
 
 ## Prerequisites
 
-- Access to the Cowork workspace folder (mounted at the session's output path)
-- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub
+- Access to the Cowork workspace folder (mounted at the session's output path) — this is for reading artifacts only
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
 - Existing source notes in `content/notes/source/`
 
 ## What Counts as a Cowork Artifact

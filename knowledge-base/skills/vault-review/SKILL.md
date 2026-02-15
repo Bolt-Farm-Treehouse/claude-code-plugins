@@ -15,7 +15,11 @@ Perform a health audit on the Company Brain Zettelkasten and produce an actionab
 
 ## Prerequisites
 
-The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub. All content is in the `content/` directory. Use the GitHub MCP connector to read files and scan the vault.
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
+- All content is in the `content/` directory
 
 ## Health Checks
 

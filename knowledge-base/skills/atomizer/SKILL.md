@@ -15,7 +15,11 @@ Take any raw document and extract every discrete idea into standalone, linked pe
 
 ## Prerequisites
 
-The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub. All content goes in the `content/` directory. Use the GitHub MCP connector to read and write files.
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
+- All content goes in the `content/` directory
 
 ## Process
 

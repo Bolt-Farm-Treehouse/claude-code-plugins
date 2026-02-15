@@ -16,7 +16,10 @@ Scan Google Drive for documents that haven't been processed into the Company Bra
 ## Prerequisites
 
 - Google Drive MCP connector must be active (uses `google_drive_search` and `google_drive_fetch` tools)
-- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub
+- GitHub MCP connector must be active for vault read/write
+- **Read `vault-knowledge/references/vault-connection.md` first** — it defines how to read from and write to the vault via GitHub API
+- Run the pre-flight check from vault-connection.md before any vault operations
+- The vault lives at `Bolt-Farm-Treehouse/knowledge-base` on GitHub (always accessed via API, never local filesystem)
 - Existing source notes live in `content/notes/source/`
 
 ## Process
